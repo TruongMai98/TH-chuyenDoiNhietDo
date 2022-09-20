@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<form>
+    <label>Temperature Converter</label>
+    <br>
+    <div>Type a value in the Fahrenheit it field to convert the value to Celcius:</div>
+    <br>
+    <label>Fahrenheit</label>
+    <input type="text" id="fahrenheit">
+    <br>
+    <label>Celius: </label>
+    <div id="result"></div>
+</form>--->
+<p>
+    <label>Fahrenheit</label>
+    <input id="inputF" type="number" placeholder="Fahrenheit"
+    oninput="temperatureConverter(this.value)"
+    onchange="temperatureConverter(this.value)">
+</p>
+<p>Celsius: <span id="outputC"></span></p>
+<script src="chuyenDoiNhietDo.js"></script>
+</body>
+</html>
